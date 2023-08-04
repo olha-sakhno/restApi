@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-04T08:21:30Z" name="Default suite" finished-at="2023-08-04T08:21:43Z" duration-ms="12738">
+    <groups>
+    </groups>
+    <test started-at="2023-08-04T08:21:30Z" name="Default test" finished-at="2023-08-04T08:21:43Z" duration-ms="12738">
+      <class name="apiTests.PetTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:30Z" name="setupData" finished-at="2023-08-04T08:21:30Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="postPetPositive()[pri:1, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:30Z" name="postPetPositive" finished-at="2023-08-04T08:21:32Z" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPetPositive -->
+        <test-method signature="postPetNegative()[pri:2, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:32Z" name="postPetNegative" finished-at="2023-08-04T08:21:34Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPetNegative -->
+        <test-method signature="getPetByIdPositive()[pri:3, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:34Z" name="getPetByIdPositive" finished-at="2023-08-04T08:21:35Z" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByIdPositive -->
+        <test-method signature="getPetByIdNegative()[pri:4, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:35Z" name="getPetByIdNegative" finished-at="2023-08-04T08:21:36Z" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByIdNegative -->
+        <test-method signature="updatePetPositive()[pri:5, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:36Z" name="updatePetPositive" finished-at="2023-08-04T08:21:36Z" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetPositive -->
+        <test-method signature="updatePetNegative()[pri:6, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:36Z" name="updatePetNegative" finished-at="2023-08-04T08:21:37Z" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetNegative -->
+        <test-method signature="deletePetNegative()[pri:7, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:37Z" name="deletePetNegative" finished-at="2023-08-04T08:21:40Z" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetNegative -->
+        <test-method signature="deletePetPositive()[pri:7, instance:apiTests.PetTests@57a78e3]" started-at="2023-08-04T08:21:40Z" name="deletePetPositive" finished-at="2023-08-04T08:21:43Z" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetPositive -->
+      </class> <!-- apiTests.PetTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
