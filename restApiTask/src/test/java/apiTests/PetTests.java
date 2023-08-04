@@ -92,7 +92,7 @@ public class PetTests {
 		responseDeleted.then().log().all();
 		Assert.assertEquals(responseDeleted.getStatusCode(), 200);
 	}
-	@Test(priority = 7)
+	@Test(priority = 8)
 	public void deletePetNegative(){
 		
 		Response response = PetEndpoints.createPet(petPayload);
